@@ -113,17 +113,27 @@ python manage.py runserver
 
 ## 🖼️ Preview
 
-<p align="center">
-  <img src="./assets/screenshot1.png" alt="Screenshot 1" style="display: inline-block; margin-right: 10px;" />
-  <img src="./assets/screenshot2.png" alt="Screenshot 2" style="display: inline-block;" />
-</p>
 
-<p align="center">
-  <img src="./assets/screenshot3.png" alt="Screenshot 1" style="display: inline-block; margin-right: 10px;" />
-  <img src="./assets/screenshot4.png" alt="Screenshot 2" style="display: inline-block;" />
-</p>
+<table>
+  <tr>
+    <td><img src="./assets/screenshot1.png" alt="Screenshot 1" width="400"></td>
+    <td><img src="./assets/screenshot2.png" alt="Screenshot 2" width="400"></td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="./assets/screenshot5.png" alt="Screenshot 1" style="display: inline-block; margin-right: 10px;" />
-  <img src="./assets/screenshot6.png" alt="Screenshot 2" style="display: inline-block;" />
-</p>
+<table>
+  <tr>
+    <td><img src="./assets/screenshot3.png" alt="Screenshot 1" width="400"></td>
+    <td><img src="./assets/screenshot6.png" alt="Screenshot 2" width="400"></td>
+  </tr>
+</table>
+
+
+
+<table>
+  <tr>
+    <td><img src="./assets/screenshot5.png" alt="Screenshot 1" width="400"></td>
+    <td><img src="./assets/screenshot4.png" alt="Screenshot 2" width="400"></td>
+  </tr>
+</table>
+
