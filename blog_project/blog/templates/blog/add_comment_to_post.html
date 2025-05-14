@@ -1,0 +1,17 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block title %}Add Comment{% endblock %}
+
+{% block content %}
+    <div class="content-section">
+        <h2>Add Comment to: "{{ post.title }}"</h2>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <div class="form-group mt-3">
+                <button class="btn btn-primary" type="submit">Submit</button>
+                <a href="{% url 'post-detail' pk=post.pk %}" class="btn btn-outline-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+{% endblock %}

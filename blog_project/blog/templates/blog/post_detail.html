@@ -1,0 +1,131 @@
+{% extends "blog/base.html" %}
+{% block title %}{{ post.title }} - Django Blog{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <!-- Post Content -->
+            <article class="card mb-4">
+                {% if post.image %}
+                <img src="{{ post.image.url }}" class="card-img-top" alt="{{ post.title }}">
+                {% endif %}
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-4">
+                        <img src="{{ post.author.profile.image.url }}" 
+                             class="rounded-circle me-3" width="50" height="50" 
+                             alt="{{ post.author.username }}">
+                        <div>
+                            <h6 class="mb-0">{{ post.author.username }}</h6>
+                            <small class="text-muted">
+                                <i class="far fa-clock me-1"></i> {{ post.date_posted|date:"F j, Y" }}
+                            </small>
+                        </div>
+                        {% if post.author == user %}
+                        <div class="ms-auto">
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" 
+                                        type="button" id="postActions" 
+                                        data-bs-toggle="dropdown">
+                                    <i class="fas fa-cog"></i>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a class="dropdown-item" href="{% url 'post-update' post.id %}">
+                                            <i class="fas fa-edit me-2"></i> Edit
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-danger" href="{% url 'post-delete' post.id %}">
+                                            <i class="fas fa-trash-alt me-2"></i> Delete
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                    
+                    <h1 class="card-title mb-4">{{ post.title }}</h1>
+                    
+                    <div class="post-content mb-5">
+                        {{ post.content|linebreaks }}
+                    </div>
+                    
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <button class="btn btn-sm btn-outline-secondary me-2 like-btn" 
+                                data-post-id="{{ post.id }}"
+                                data-likes-url="{% url 'like-post' post.id %}"
+                                {% if request.user in post.likes.all %}data-liked="true"{% endif %}>
+                                    <i class="{% if request.user in post.likes.all %}fas{% else %}far{% endif %} fa-thumbs-up me-1"></i>
+                                    <span class="like-count">{{ post.total_likes }}</span>
+                            </button>
+                            <button class="btn btn-sm btn-outline-secondary save-btn" 
+                                data-post-id="{{ post.id }}"
+                                data-save-url="{% url 'save-post' post.id %}"
+                                {% if request.user in post.savedpost_set.all %}data-saved="true"{% endif %}>
+                                    <i class="{% if request.user in post.savedpost_set.all %}fas{% else %}far{% endif %} fa-bookmark me-1"></i>
+                                    <span class="save-count">{{ post.savedpost_set.count }}</span>
+                            </button>
+                        </div>
+                        <div>
+                            <span class="badge bg-primary">Blog</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Comments Section -->
+            <div class="card comment-section mb-5">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">
+                        <i class="fas fa-comments me-2"></i> 
+                        Comments ({{ post.comments.count }})
+                    </h5>
+                    
+                    {% if user.is_authenticated %}
+                    <form method="POST" action="{% url 'add-comment' post.id %}" class="mb-4">
+                        {% csrf_token %}
+                        <div class="input-group">
+                            <input type="text" name="text" class="form-control" 
+                                   placeholder="Add a comment..." required>
+                            <button class="btn btn-primary" type="submit">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                    {% else %}
+                    <div class="alert alert-info">
+                        <a href="{% url 'login' %}">Login</a> to leave a comment
+                    </div>
+                    {% endif %}
+                    
+                    {% for comment in post.comments.all %}
+                    <div class="d-flex mb-3">
+                        <img src="{{ comment.author.profile.image.url }}" 
+                             class="rounded-circle me-3" width="40" height="40"
+                             alt="{{ comment.author.username }}">
+                        <div class="flex-grow-1">
+                            <div class="bg-light p-3 rounded">
+                                <div class="d-flex justify-content-between mb-1">
+                                    <strong>{{ comment.author.username }}</strong>
+                                    <small class="text-muted">
+                                        {{ comment.created_date|timesince }} ago
+                                    </small>
+                                </div>
+                                <p class="mb-0">{{ comment.text }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% empty %}
+                    <div class="text-center py-3">
+                        <p class="text-muted">No comments yet. Be the first to comment!</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
