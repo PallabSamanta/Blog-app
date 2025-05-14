@@ -110,3 +110,7 @@ python manage.py runserver
 -  <span style="background-color:rgb(255, 255, 255); width: 10px; height: 10px; display: inline-block;"></span> Add tags or categories to posts
 
 ---
+
+## 🖼️ Preview
+
+<img src="C:\Users\user\Downloads\127.0.0.1_8000__2025_05_14_22_29_56.png" alt="Django Blog Screenshot" width="400"/>
