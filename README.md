@@ -113,9 +113,17 @@ python manage.py runserver
 
 ## 🖼️ Preview
 
-<img src="./assets/screenshot1.png" alt="Django Blog Screenshot" width="400"/>
-<img src="./assets/screenshot2.png" alt="Django Blog Screenshot" width="400"/>
-<img src="./assets/screenshot3.png" alt="Django Blog Screenshot" width="400"/>
-<img src="./assets/screenshot4.png" alt="Django Blog Screenshot" width="400"/>
-<img src="./assets/screenshot5.png" alt="Django Blog Screenshot" width="400"/>
-<img src="./assets/screenshot6.png" alt="Django Blog Screenshot" width="400"/>
+<p align="center">
+  <img src="./assets/screenshot1.png" alt="Screenshot 1" style="display: inline-block; margin-right: 10px;" />
+  <img src="./assets/screenshot2.png" alt="Screenshot 2" style="display: inline-block;" />
+</p>
+
+<p align="center">
+  <img src="./assets/screenshot3.png" alt="Screenshot 1" style="display: inline-block; margin-right: 10px;" />
+  <img src="./assets/screenshot4.png" alt="Screenshot 2" style="display: inline-block;" />
+</p>
+
+<p align="center">
+  <img src="./assets/screenshot5.png" alt="Screenshot 1" style="display: inline-block; margin-right: 10px;" />
+  <img src="./assets/screenshot6.png" alt="Screenshot 2" style="display: inline-block;" />
+</p>
