@@ -116,15 +116,15 @@ python manage.py runserver
 
 <table>
   <tr>
-    <td><img src="./assets/screenshot1.png" alt="Screenshot 1" width="400"></td>
-    <td><img src="./assets/screenshot2.png" alt="Screenshot 2" width="400"></td>
+    <td><img src="https://drive.google.com/file/d/1kT2FHyhwQC0qD5WhLHlNyCxB1jQHACLE/view?usp=sharing" alt="Screenshot 1" width="400"></td>
+    <td><img src="https://drive.google.com/file/d/1z-9QGJQ___ziDVQElH3WsYf6f5_-1hbi/view?usp=sharing" alt="Screenshot 2" width="400"></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="./assets/screenshot3.png" alt="Screenshot 1" width="400"></td>
-    <td><img src="./assets/screenshot6.png" alt="Screenshot 2" width="400"></td>
+    <td><img src="https://drive.google.com/file/d/1V4h7lNF5aD1qQXh1WHlVF7q1QQGTnT2T/view?usp=sharing" alt="Screenshot 1" width="400"></td>
+    <td><img src="https://drive.google.com/file/d/14CbfOT0smvOoESxpAusD_q2pComEAjPu/view?usp=sharing" alt="Screenshot 2" width="400"></td>
   </tr>
 </table>
 
@@ -132,8 +132,8 @@ python manage.py runserver
 
 <table>
   <tr>
-    <td><img src="./assets/screenshot5.png" alt="Screenshot 1" width="400"></td>
-    <td><img src="./assets/screenshot4.png" alt="Screenshot 2" width="400"></td>
+    <td><img src="https://drive.google.com/file/d/1r_O8ORwAwlQ0msMundR1_yNdGiErqG7s/view?usp=sharing" alt="Screenshot 1" width="400"></td>
+    <td><img src="https://drive.google.com/file/d/1ProFUBcm8IyMFo4L8lkRC22z_8rqwVrC/view?usp=sharing" alt="Screenshot 2" width="400"></td>
   </tr>
 </table>
 
