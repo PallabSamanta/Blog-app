@@ -1,6 +1,6 @@
-# 📝 DjangoBlog
+# 📝 AuthentiBlog
 
-**DjangoBlog** is a fully functional blog web application built with Django. It allows users to register, log in, create, update, and delete their blog posts. Users can also comment on posts, upload profile and blog images, and reset their passwords (with email setup). Each user has a dedicated profile page.
+**AuthentiBlog** is a fully functional blog web application built with Django. It allows users to register, log in, create, update, and delete their blog posts. Users can also comment on posts, upload profile and blog images, and reset their passwords (with email setup). Each user has a dedicated profile page.
 
 ---
 
