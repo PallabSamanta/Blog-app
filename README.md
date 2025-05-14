@@ -114,9 +114,16 @@ python manage.py runserver
 ## 🖼️ Preview
 
 
-<table>
+<!-- <table>
   <tr>
     <td><img src="https://drive.google.com/file/d/1kT2FHyhwQC0qD5WhLHlNyCxB1jQHACLE/view?usp=sharing" alt="Screenshot 1" width="400"></td>
+    <td><img src="https://drive.google.com/file/d/1z-9QGJQ___ziDVQElH3WsYf6f5_-1hbi/view?usp=sharing" alt="Screenshot 2" width="400"></td>
+  </tr>
+</table> -->
+
+<table>
+  <tr>
+    <td><img src="https://drive.google.com/uc?export=view&id=1kT2FHyhwQC0qD5WhLHlNyCxB1jQHACLE" alt="Screenshot 1" width="400"></td>
     <td><img src="https://drive.google.com/file/d/1z-9QGJQ___ziDVQElH3WsYf6f5_-1hbi/view?usp=sharing" alt="Screenshot 2" width="400"></td>
   </tr>
 </table>
