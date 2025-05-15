@@ -124,7 +124,7 @@ python manage.py runserver
 <table>
   <tr>
     <td><img src="https://drive.google.com/uc?export=view&id=180h95PDibV1Xk8m-7jWjUXz_nWOQmt5X" alt="Screenshot 1" width="400"></td>
-    <td><img src="https://drive.google.com/uc?export=1FXkNyXt0TIkAZYgjzJgjQskT6Xt8aIfE" alt="Screenshot 2" width="400"></td>
+    <td><img src="https://drive.google.com/uc?export=view&id=1FXkNyXt0TIkAZYgjzJgjQskT6Xt8aIfE" alt="Screenshot 2" width="400"></td>
   </tr>
 </table>
 
