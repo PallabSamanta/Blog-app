@@ -80,6 +80,71 @@ python manage.py runserver
 
 ---
 
+## 📁 Project Structure
+
+```
+├── .env
+├── .gitignore
+├── accounts
+│   ├── .gitignore
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── migrations
+│   ├── models.py
+│   ├── signals.py
+│   ├── templates
+│   │   ├── accounts
+│   │   │   ├── login.html
+│   │   │   ├── logout.html
+│   │   │   ├── password_reset.html
+│   │   │   ├── password_reset_complete.html
+│   │   │   ├── password_reset_confirm.html
+│   │   │   ├── password_reset_done.html
+│   │   │   ├── profile.html
+│   │   │   ├── register.html
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
+├── blog
+│   ├── .gitignore
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── migrations
+│   ├── models.py
+│   ├── templates
+│   │   ├── blog
+│   │   │   ├── about.html
+│   │   │   ├── add_comment_to_post.html
+│   │   │   ├── base.html
+│   │   │   ├── home.html
+│   │   │   ├── post_confirm_delete.html
+│   │   │   ├── post_detail.html
+│   │   │   ├── post_form.html
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
+├── blog_project
+│   ├── .gitignore
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+├── db.sqlite3
+├── manage.py
+├── media
+├── requirements.txt
+```
+
+---
+
 ## 👥 User Roles
 
 - **Anonymous Users:** Can only view blog posts
