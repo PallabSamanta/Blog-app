@@ -123,8 +123,8 @@ python manage.py runserver
 
 <table>
   <tr>
-    <td><img src="https://drive.google.com/uc?export=view&id=1kT2FHyhwQC0qD5WhLHlNyCxB1jQHACLE" alt="Screenshot 1" width="400"></td>
-    <td><img src="https://drive.google.com/uc?export=view&id=1z-9QGJQ___ziDVQElH3WsYf6f5_-1hbi" alt="Screenshot 2" width="400"></td>
+    <td><img src="https://drive.google.com/uc?export=view&id=180h95PDibV1Xk8m-7jWjUXz_nWOQmt5X" alt="Screenshot 1" width="400"></td>
+    <td><img src="https://drive.google.com/uc?export=1FXkNyXt0TIkAZYgjzJgjQskT6Xt8aIfE" alt="Screenshot 2" width="400"></td>
   </tr>
 </table>
 
@@ -137,8 +137,8 @@ python manage.py runserver
 
 <table>
   <tr>
-    <td><img src="https://drive.google.com/uc?export=view&id=1V4h7lNF5aD1qQXh1WHlVF7q1QQGTnT2T" alt="Screenshot 1" width="400"></td>
-    <td><img src="https://drive.google.com/uc?export=view&id=14CbfOT0smvOoESxpAusD_q2pComEAjPu" alt="Screenshot 2" width="400"></td>
+    <td><img src="https://drive.google.com/uc?export=view&id=10d5jGF_jQvz3acxLl-m_aeenE-27Tr9N" alt="Screenshot 1" width="400"></td>
+    <td><img src="https://drive.google.com/uc?export=view&id=1p-GqZRZzK3nDBqsDhStDFbqy9Lempbl0" alt="Screenshot 2" width="400"></td>
   </tr>
 </table>
 
@@ -154,8 +154,8 @@ python manage.py runserver
 
 <table>
   <tr>
-    <td><img src="https://drive.google.com/uc?export=view&id=1r_O8ORwAwlQ0msMundR1_yNdGiErqG7s" alt="Screenshot 1" width="400"></td>
-    <td><img src="https://drive.google.com/uc?export=view&id=1ProFUBcm8IyMFo4L8lkRC22z_8rqwVrC" alt="Screenshot 2" width="400"></td>
+    <td><img src="https://drive.google.com/uc?export=view&id=1wbiyw5YblkgX9N3XOBb_zdemvUzMSLLV" alt="Screenshot 1" width="400"></td>
+    <td><img src="https://drive.google.com/uc?export=view&id=11hql3jJgGSlIxKl3GcuqTsa92VuXmXO4" alt="Screenshot 2" width="400"></td>
   </tr>
 </table>
 
